@@ -5,13 +5,16 @@
   "main": "gulpfile.babel.js",
   "scripts": {
     "start": "gulp",
-    "build": "gulp build --production"
+    "build": "gulp build --production",
+    "deploy": "gh-pages -d dist"
   },
   "author": "ZURB <foundation@zurb.com>",
   "license": "MIT",
+  "homepage": "https://yell0wu.github.io/cs3240-about",
   "dependencies": {
     "aos": "^2.2.0",
     "foundation-sites": "~6.4.1",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.2.1",
     "motion-ui": "^2.0.3",
     "slick-carousel": "^1.8.1",
